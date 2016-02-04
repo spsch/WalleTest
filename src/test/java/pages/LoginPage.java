@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import static org.openqa.selenium.By.name;
+
 /**
  * Created by svehlak on 29.11.15.
  */
@@ -11,7 +13,7 @@ public class LoginPage {
     WebDriver driver;
     By LoginEmail = By.id("user_email");
     By LoginPassword = By.id("user_password");
-    By LoginButton = By.name("commit");
+    By LoginButton = name("commit");
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
