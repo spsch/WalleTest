@@ -12,7 +12,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>2.48.2</version>
+            <version>2.53.0</version>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.webdriver</groupId>
@@ -22,7 +22,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.9.9</version>
+            <version>6.10</version>
         </dependency>
 
     </dependencies>
